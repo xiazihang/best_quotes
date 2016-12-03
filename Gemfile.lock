@@ -1,0 +1,19 @@
+GIT
+  remote: git@github.com:xiazihang/Ruler.git
+  revision: 6ea5d13f3ff4d14807e21b9ff07c9931584c8881
+  specs:
+    Rulers (0.0.1)
+      rack
+
+GEM
+  specs:
+    rack (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  Rulers!
+
+BUNDLED WITH
+   1.13.6
