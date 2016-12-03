@@ -1,12 +1,12 @@
 PATH
-  remote: ~/xzh/Rulers
+  remote: ~/xzh/Ruler
   specs:
     Rulers (0.0.1)
       rack
 
 GEM
   specs:
-    rack (2.0.1)
+    rack (1.6.4)
 
 PLATFORMS
   ruby
