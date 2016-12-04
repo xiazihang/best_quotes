@@ -13,4 +13,25 @@ class ApiController < Rulers::Controller
     @api_info = "test_api_info use instance_variables"
     render :api_page
   end
+
+  def get_quote_info
+    @quote = Quote.find(1)
+
+    render :quote_info
+  end
+
+  def get_all_quote_info
+    @quotes = Quote.all
+    render :all_quote_info
+  end
+
+  def create_new_quote
+    attrs = {"submitter" => "wys", "quote" => "haha", "attribution" => "test"}
+    begin
+      @quote = Quote.create attrs
+      render :quote_info
+    rescue => e
+      e
+    end
+  end
 end

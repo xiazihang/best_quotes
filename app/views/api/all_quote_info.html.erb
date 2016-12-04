@@ -1,0 +1,6 @@
+<p>All Quote Info Page</p>
+<% quotes.each do |quote|%>
+  <li>submitter:  <%= quote["submitter"]%></li>
+  <li>quote:  <%= quote["quote"]%></li>
+  <li>attribution:  <%= quote["attribution"]%></li>
+<%end%>

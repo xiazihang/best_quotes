@@ -3,11 +3,13 @@ PATH
   specs:
     Rulers (0.0.1)
       erubis
+      multi_json
       rack
 
 GEM
   specs:
     erubis (2.7.0)
+    multi_json (1.11.2)
     rack (2.0.1)
 
 PLATFORMS
