@@ -2,11 +2,13 @@ PATH
   remote: ~/xzh/Ruler
   specs:
     Rulers (0.0.1)
+      erubis
       rack
 
 GEM
   specs:
-    rack (1.6.4)
+    erubis (2.7.0)
+    rack (2.0.1)
 
 PLATFORMS
   ruby

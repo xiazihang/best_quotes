@@ -1,5 +1,5 @@
 class HomeController < Rulers::Controller
   def index
-    "Home Page"
+    render :index, :var => "var"
   end
 end
