@@ -15,8 +15,8 @@ class ApiController < Rulers::Controller
   end
 
   def get_quote_info
-    @quote = Quote.find(1)
-
+    id = params["id"] ? params["id"] : 1
+    @quote = Quote.find(id)
     render :quote_info
   end
 
